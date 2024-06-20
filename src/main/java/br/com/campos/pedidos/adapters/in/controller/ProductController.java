@@ -83,7 +83,7 @@ public class ProductController {
     }
     @Operation(summary = "Atualizar um produto existente", description = "Atualiza os dados de um produto existente")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Usuário atualizado com sucesso",
+            @ApiResponse(responseCode = "200", description = "Produto atualizado com sucesso",
                     content = @Content(mediaType = "application/json",
                             schema = @Schema(implementation = ProductResponse.class))),
             @ApiResponse(responseCode = "404", description = "Produto não encontrado",
